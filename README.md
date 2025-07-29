@@ -58,7 +58,8 @@ To run this webserver, you need:
 ```
 rust-webserver/
 ├── src/
-│   └── main.rs       # Main server logic with thread pool implementation
+│   └── main.rs       # Main server logic
+│   └── lib.rs        # Thread pool implementation
 ├── hello.html        # Static HTML file for the root endpoint
 ├── 404.html          # Static HTML file for 404 responses
 ├── Cargo.toml        # Rust project configuration
